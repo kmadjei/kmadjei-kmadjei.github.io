@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- 
+      Required meta tags - example from w3 schools
+       - https://www.w3schools.com/tags/tag_meta.asp
+     -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Full Stack Web Developer Portfolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Python, MySQL, Django, SEO">
+    <meta name="author" content="Kenneth Adjei">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap 4.6 Library  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+    <!--Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kenneth Adjei - Full Stack Developer Portfolio</title>
+  </head>
+  <body>
+    
+    <!-- HEADER / NAVIGATION - with Bootstrap 4 -->
+    <header>
+
+      <nav id="nav-container" class="navbar navbar-expand-sm mx-auto ">
+        <!-- Brand -->
+        <a class="navbar-brand logo" href="index.html">KMAdjei</a>
+
+        <!-- Toggler/collapsible Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <!-- Font-awesome hamburger bars - Menu -->
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coding-challenges">Coding Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-container">
+
+      <!-- HOME - Hero img  -->
+      <section id="home">
+        <div class="home-container">
+          <p>Hello,</p>
+          <h1>I'm <span>Kenneth Adjei</span></h1>
+          <p>
+            <i class="fas fa-star" aria-hidden="true"></i>
+            Your favourite Full Stack Software Developer.
+            <i class="fas fa-star" aria-hidden="true"></i>
+          </p>
+          <a class="button" href="#about">
+            <i class="fas fa-cogs" aria-hidden="true"></i>
+            Let's See What I Can do for You?
+            <i class="fas fa-cogs" aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about">
+        <h2 class="section-title">About</h2>
+        <article>          
+          <div class="about-img">
+            <img src="assets/images/about-img.png" alt="Profile picture">
+          </div>
+          <div class="about-content">            
+            <h3 class="blue">I am Kenneth Adjei</h3>
+            <p>
+              An aspiring Full Stack Software Developer (FSSD) focused on professional business ventures that delivers great user experiences.
+            </p>
+            <p>
+              My FSSD education at the Canadian Business College has equipped me with the ability to build web-based applications from start to finish. The next phase of my career is to continue to grow as a software developer by taking on challenging roles that makes full use of my abilities bring  to ideas life. Check out the rest of my portfolio if you are excited  as I am to work together.
+            </p>
+
+            <div class="contact">
+              <div class="socials">
+                <p>
+                  <strong>Email</strong>
+                  <span class="blue">kmadjei25@gmail.com</span>                 
+                </p>
+                <p>
+                  <strong>Social</strong>
+                  <a href="https://github.com/kmadjei" target="_blank">
+                    <i class="fab fa-github-square" aria-hidden="true"></i>
+                    <span class="sr-only">Github</span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/kmadjei/" target="_blank">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                  </a>
+                  </a>
+                </p>
+              </div>
+              <div class="resume-btn">
+                <a href="https://docs.google.com/document/d/1jDYNPBZ37LGyMy8Og3HZSDTOeONVtbuSE-3VkNdaVG0/edit?usp=sharing" target="_blank">Download Resume</a>
+              </div>              
+            </div> 
+          </div>
+        </article>
+        
+      </section>
+  
+      <!-- SKILLS -->
+      <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <article class="skills-content">
+          <p>
+            As a Full Stack Software Developer, I take part in the shaping of your project from initiation to closure. Which makes me a versatile and an invaluable asset to include in your team. These are the highlights of some of the key technical skills I will bring to your projects.
+          </p>
+          <div class="skill-cards-container">
+
+            <div class="s-card">
+              <img class="card-img-top" src="assets/images/frontend3.png" alt="HTML, CSS, and JavaScript">
+              <div class="card-body">
+                <h4 class="card-title ">Front End Development</h4>
+                <p class="card-text">
+                  In any project, I utilize HTML, CSS, and JavaScript to build websites that are responsive and also meets client objectives.
+                </p>
+              </div>
+            </div> 
+             <div class="s-card">
+              <img class="card-img-top" src="assets/images/bootstrap1.png" alt="Bootstrap Logo">
+              <div class="card-body">
+                <h4 class="card-title ">Front End Design</h4>
+                <p class="card-text">
+                  Bootstrap is a CSS framework I use to easily  generate attractive and responsive websites from a mobile-first design approach.
+                </p>
+              </div>
+            </div> 
+            <div class="s-card">
+              <img class="card-img-top" src="assets/images/php-mysql2.jpg" alt="PHP and MySQL">
+              <div class="card-body">
+                <h4 class="card-title ">Backend Development</h4>
+                <p class="card-text">
+                  When it comes to the Back End web development, PHP is what I use for the server side scripting and MySQL for creating database for any web applications.
+                </p>
+              </div>
+            </div>
+            <div class="s-card">
+              <img class="card-img-top" src="assets/images/wordpress-logo-2.png" alt="WordPress">
+              <div class="card-body">
+                <h4 class="card-title ">WordPress Development</h4>
+                <p class="card-text">
+                  Wordpress is an open source CMS equipped with a variety of tools for building fast and secure website, which I am also well versed in. 
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </article>
+      </section>
+
+      <!-- CODING CHALLENGES -->
+      <section id="coding-challenges">
+        <h2 class="section-title">Coding Challenges</h2>
+        <div class="coding-content">
+          <p>
+            During my journey as a Software programmer, I encounter many new challenges that also presents opportunities for growth. The challenge assignments presented below are representations of my growth as a developer which becomes building blocks of valuable skills for working on big projects. Click on the cards below to view more details.
+          </p>
+
+          <div class="coding-card-container">
+
+
+            <!-- w3 image overlay effect cards
+              https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+            -->
+            <div class="coding-card">
+              <img src="https://github.com/kmadjei/HTML-assignment/blob/main/assets/images/sea_spa_logo.jpg?raw=true" alt="The Sea Spa Logo">
+              <div class="info-overlay">
+                <div class="challenge-title"><b>HTML Challenge</b></div>
+                <a href="https://github.com/kmadjei/HTML-assignment" target="_blank" class="card-link">PREVIEW</a>
+              </div>
+            </div>
+
+
+            <div class="coding-card">
+              <img src="https://github.com/kmadjei/HTML-assignment/blob/main/assets/images/sea_spa_logo.jpg?raw=true" alt="The Sea Spa Logo">
+              <div class="info-overlay">
+                <div class="challenge-title"><b>CSS Challenge</b></div>
+                <a href="https://github.com/kmadjei/CSS-assignment" target="_blank" class="card-link">PREVIEW</a>
+              </div>
+            </div>
+              
+
+          </diV>    
+        </div>
+      </section>
+  
+
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <article class="project-content">
+          <p>
+            These projects here are a showcase of my Front End and Back End skills as a developer. These projects also shows my continuous growth not just as a coder, but someone with the capability to think outside the box and solve real world business problems. Click on the projects for more details.
+          </p>
+
+          <div class="project-card-container">
+
+
+            <!-- Flip cards from w3school idea
+              https://www.w3schools.com/howto/howto_css_flip_card.asp
+            -->
+            <div class="project-card">
+              <div class="project-card-inner">
+                <div class="project-card-front">
+                  <img src="https://github.com/kmadjei/HTMLCSS-Project-LoveRunning/blob/main/assets/img/love-running1.png?raw=true" alt="Love Running Logo">
+                </div>
+                <div class="project-card-back">
+                  <h4>Love Running</h4>
+                  <a href="https://github.com/kmadjei/HTMLCSS-Project-LoveRunning" target="_blank" class="card-link">View More Info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-card-inner">
+                <div class="project-card-front">
+                  <img src="https://github.com/kmadjei/MiniProjectWithBootstrap4/blob/master/assets/images/rosie-logo.png?raw=true" alt="Bootstrap CV logo">
+                </div>
+                <div class="project-card-back">
+                  <h4>Bootstrap CV</h4>
+                  <a href="https://github.com/kmadjei/MiniProjectWithBootstrap4" target="_blank" class="card-link">View More Info</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          
+
+    
+        </article>
+      </section>
+  
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <section>
+          <h3>About</h3>
+          <p>
+            Your favourite Full Stack Developer. Ready to help you deploy and launch your Business Goals!
+          </p>         
+        </section>
+        <section>
+          <h3>Download</h3>
+          <p>
+           You can download a printable version of my CV here.
+            <a href="https://docs.google.com/document/d/1jDYNPBZ37LGyMy8Og3HZSDTOeONVtbuSE-3VkNdaVG0/edit?usp=sharing" target="_blank">
+                <i class="fa fa-download" aria-hidden="true"></i>
+                <span class="sr-only">Download link.</span>
+            </a>
+        </p>
+        </section>
+        <section>
+          <h3>Follow me On</h3>
+          <div class="social">
+            <a href="https://github.com/kmadjei" target="_blank">
+              <i class="fab fa-github-square" aria-hidden="true"></i>
+              <span class="sr-only">Github</span>
+            </a>
+            <a href="https://www.linkedin.com/in/kmadjei/" target="_blank">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            </a>
+          </div>
+        </section>
+      </div>
+      <p class="copy-right">Copyright &copy; 2021 Kenneth M. Adjei</p> 
+    </footer>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
