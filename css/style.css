@@ -317,7 +317,7 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: .4s ease;
+    transition: .2s ease;
 }
 
 .coding-card:hover img {
