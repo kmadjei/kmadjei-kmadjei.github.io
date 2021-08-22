@@ -1,3 +1,5 @@
 # kmadjei-kmadjei.github.io
 
-My portfolio
+Welcome to my [portfolio](https://kmadjei.github.io/).
+
+
